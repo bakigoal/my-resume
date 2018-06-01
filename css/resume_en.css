@@ -17,26 +17,26 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Saira Extra Condensed', serif;
   font-weight: 700;
   text-transform: uppercase;
   color: #a4a5a6;
 }
 
 h1 {
-  font-size: 4.5rem;
+  font-size: 6rem;
   line-height: 5.5rem;
 }
 
 h2 {
-  font-size: 3rem;
+  font-size: 3.5rem;
 }
 
 .subheading {
   text-transform: uppercase;
   font-weight: 500;
-  font-family: 'Oswald', sans-serif;
-  font-size: 1.15rem;
+  font-family: 'Saira Extra Condensed', serif;
+  font-size: 1.35rem;
 }
 
 .list-social-icons a {
