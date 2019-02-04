@@ -4,7 +4,6 @@
     "company": "Экстрим ПРО",
     "job_title": "Разработчик ПО",
     "responsibilities": [
-      "Разработка отчетов для системы <a href='https://dom.gosuslugi.ru' target='_blank'>ГИС ЖКХ</a>",
       "Поддержка и рефакторинг существующего java и javascript кода"
     ],
     "technologies": [
