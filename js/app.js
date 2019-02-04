@@ -33,15 +33,14 @@ function loadExperience() {
 
 function fillExperience() {
   experienceList.forEach(function (experience) {
-    const experienceDiv = createExperienceDiv(experience);
-    uiExperienceList.appendChild(experienceDiv);
+    createExperienceDiv(experience);
   })
 }
 
 // create UI ---------------------------------------------------------------
 function createExperienceDiv(experience) {
-  const div = document.createElement('div');
-  div.className = 'resume-item d-flex flex-column flex-md-row mb-5';
+  const experienceDiv = document.createElement('div');
+  experienceDiv.className = 'resume-item d-flex flex-column flex-md-row mb-5';
   // div 1 - job info
   const div1 = document.createElement('div');
   div1.className = 'resume-content mr-auto';
@@ -74,14 +73,14 @@ function createExperienceDiv(experience) {
   div1.appendChild(ul);
   // technologies
   div1.appendChild(document.createTextNode(experience.technologies.join(', ')));
-  div.appendChild(div1);
+  experienceDiv.appendChild(div1);
   // div 2 - dates
   const div2 = document.createElement('div');
   const span = document.createElement('span');
   span.className = 'text-primary';
   span.appendChild(document.createTextNode(experience.start_date + ' - ' + experience.end_date));
   div2.appendChild(span);
-  div.appendChild(div2);
+  experienceDiv.appendChild(div2);
 
-  return div;
+  uiExperienceList.appendChild(experienceDiv);
 }
