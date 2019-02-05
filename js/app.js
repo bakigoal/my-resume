@@ -76,6 +76,7 @@ function createExperienceDiv(experience) {
   experienceDiv.appendChild(div1);
   // div 2 - dates
   const div2 = document.createElement('div');
+  div2.className = 'text-md-right';
   const span = document.createElement('span');
   span.className = 'text-primary';
   span.appendChild(document.createTextNode(experience.start_date + ' - ' + experience.end_date));
