@@ -13,13 +13,7 @@ let personalInfo = {};
 const EXPERIENCE_URL = "data/experience.json";
 const PERSONAL_INFO_URL = "data/personalInfo.json";
 
-// add event listeners
-addEventListeners();
-
-function addEventListeners() {
-  // DOM load event
-  document.addEventListener('DOMContentLoaded', init);
-}
+init();
 
 function init() {
   loadData();
