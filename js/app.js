@@ -5,10 +5,6 @@ const uiSkills = document.querySelector('#skills');
 const uiEducation = document.querySelector('#education');
 const uiInterests = document.querySelector('#interests');
 
-// data
-let experienceList = [];
-let personalInfo = {};
-
 // REST URLS
 const EXPERIENCE_URL = "data/experience.json";
 const PERSONAL_INFO_URL = "data/personalInfo.json";
@@ -17,28 +13,29 @@ init();
 
 function init() {
   loadData();
-
-  fillExperience();
-  fillPersonalInfo();
 }
 
 // LOADING JSON ----------------------------------------------------------
 
 function loadData() {
-  personalInfo = loadJson(PERSONAL_INFO_URL);
-  experienceList = loadJson(EXPERIENCE_URL);
+  loadJson(PERSONAL_INFO_URL, fillPersonalInfo);
+  loadJson(EXPERIENCE_URL, fillExperience);
 }
 
-function loadJson(url) {
+function loadJson(url, success) {
   let request = new XMLHttpRequest();
-  request.open('GET', url, false);
-  request.send(null)
-  return JSON.parse(request.responseText);
+  request.open('GET', url, true);
+  request.onload = function () {
+    if (this.status === 200) {
+      success(JSON.parse(this.responseText));
+    }
+  }
+  request.send();
 }
 
 // CREATING UI -----------------------------------------------------------
 
-function fillPersonalInfo() { // UI using innerHtml and ``
+function fillPersonalInfo(personalInfo) { // UI using innerHtml and ``
   let socialList = '<ul class="list-inline list-social-icons mb-0">';
   personalInfo.socialLinks.forEach(function (social) {
     socialList += `
@@ -72,7 +69,7 @@ function fillPersonalInfo() { // UI using innerHtml and ``
   `;
 }
 
-function fillExperience() { // UI using DOM manipulation
+function fillExperience(experienceList) { // UI using DOM manipulation
   const div = document.createElement('div');
   div.className = 'my-auto';
   const experienceLabel = document.createElement('h2');
