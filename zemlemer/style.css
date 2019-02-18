@@ -1,0 +1,65 @@
+/* Navigation */
+.navbar{
+    position:absolute;
+    width:100%;
+    z-index:10;
+    max-width:100%;
+}
+.navbar-brand {
+    font-size: 48px;
+}
+.navbar-brand img {
+    width: 50px;
+}
+.navbar .navbar-nav {
+    margin-left: 20px;
+}
+.navbar .navbar-nav .nav-item {
+    margin-right: 20px;
+}
+.navbar .navbar-nav .nav-item a {
+    font-family: 'Roboto', sans-serif;
+    line-height: 32px;
+    font-size: 18px;
+    color: #212121;
+}
+
+/* Carousel */
+.carousel-caption {
+    text-align: left;
+    bottom: 43%;
+    left: 20%;
+}
+.carousel-caption h3 {
+    font-family: 'Roboto', sans-serif;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 70px;
+    font-size: 40px;
+    color: black;
+}
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    min-width: 720px;
+}
+.carousel-control-prev .fa-chevron-circle-left, .carousel-control-next .fa-chevron-circle-right {    
+    font-size: 40px;
+    color: #ffc107;
+}
+.carousel-indicators li {
+    width: 12px;
+    height: 12px;
+    margin: 10px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%; 
+}
+.carousel-indicators .active {
+    width: 12px;
+    height: 12px;
+    margin: 10px;
+    background-color: #ffc107;
+}
