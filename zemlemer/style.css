@@ -1,27 +1,5 @@
-/* Navigation */
-.navbar{
-    position:absolute;
-    width:100%;
-    z-index:10;
-    max-width:100%;
-}
 .navbar-brand {
-    font-size: 48px;
-}
-.navbar-brand img {
-    width: 50px;
-}
-.navbar .navbar-nav {
-    margin-left: 20px;
-}
-.navbar .navbar-nav .nav-item {
-    margin-right: 20px;
-}
-.navbar .navbar-nav .nav-item a {
-    font-family: 'Roboto', sans-serif;
-    line-height: 32px;
-    font-size: 18px;
-    color: #212121;
+    font-size: 29px;
 }
 
 /* Carousel */
@@ -33,12 +11,12 @@
 .carousel-caption h3 {
     font-family: 'Roboto', sans-serif;
     font-size: 36px;
-    color: black;
 }
 .carousel-item img {
     width: 100%;
     height: auto;
     min-width: 720px;
+    min-height: 360px;
 }
 .carousel-control-prev .fa-chevron-circle-left, .carousel-control-next .fa-chevron-circle-right {    
     font-size: 40px;
@@ -58,6 +36,15 @@
     height: 12px;
     margin: 10px;
     background-color: #ffc107;
+}
+
+section {
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+
+#services, #contacts {
+    background-color: rgba(211, 211, 211, 0.4);
 }
 
 @media (max-width: 767px) {
