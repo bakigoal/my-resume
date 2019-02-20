@@ -20,39 +20,41 @@
 
 <body>
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light static-top">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
             <a class="navbar-brand" href="#">
                 Землемер
-                <img src="images/logo.png" alt="">
+                <img src="images/logo-geodezist-white.png" alt="">
+                <img src="images/logo-geodezist-red.png" alt="">
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
-                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+                aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                <ul class="navbar-nav mr-auto mt-2 mt-lg-3">
+            <div class="collapse navbar-collapse" id="navbarToggler">
+                <ul class="navbar-nav ml-auto mt-2">
                     <li class="nav-item active">
                         <a class="nav-link" href="#">Главная <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">О компании</a>
+                        <a class="nav-link" href="#services">Услуги</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Услуги</a>
+                        <a class="nav-link" href="#about">О компании</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Контакты</a>
+                        <a class="nav-link" href="#contacts">Контакты</a>
                     </li>
                 </ul>
-                <form class="form-inline mt-2 mt-lg-3">
-                    <button class="btn btn-outline-success mt-2 mt-sm-0" type="submit">Оставить заявку</button>
+                <form class="form-inline my-2 mt-3 ml-lg-5">
+                    <button class="btn btn-danger my-2 my-sm-0" type="submit">Оставить заявку</button>
                 </form>
             </div>
         </div>
     </nav>
 
+    <!-- Carousel -->
     <div id="carousel-id" class="carousel slide" data-ride="carousel">
 
         <!-- Indicators -->
@@ -66,21 +68,21 @@
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img class="img-fluid" src="images/proekt_1.jpg" alt="Кадастровые работы">
-                <div class="carousel-caption">
+                <div class="carousel-caption text-light">
                     <h3>Выполним любые кадастровые работы</h3>
                     <button type="button" class="btn btn-warning">Подробнее</button>
                 </div>
             </div>
             <div class="carousel-item">
                 <img class="img-fluid" src="images/proekt_2.jpg" alt="Проектирование домов">
-                <div class="carousel-caption">
+                <div class="carousel-caption text-light">
                     <h3>Индивидуальное проектирование домов</h3>
                     <button type="button" class="btn btn-warning">Подробнее</button>
                 </div>
             </div>
             <div class="carousel-item">
                 <img class="img-fluid" src="images/proekt_3.jpg" alt="Геодезические работы">
-                <div class="carousel-caption">
+                <div class="carousel-caption text-light">
                     <h3>Проведение качественных геодезических работ</h3>
                     <button type="button" class="btn btn-warning">Подробнее</button>
                 </div>
@@ -96,13 +98,120 @@
         </a>
 
     </div>
+    <!-- Carousel -->
 
-    <!-- Page Content -->
-    <div class="container">
+    <!-- Services -->
+    <section id="services">
+        <div class="container">
+            <h3 class="text-center">Услуги</h3>
+            <div class="row mt-5">
+                <div class="col-md-4 col-sm-12">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <img class="rounded" src="images/service_kadastr.png" alt="Кадастровые работы" width="100%">
+                            <h5 class="card-title mt-4 mb-4">Кадастровые работы</h5>
+                            <p class="card-text text-secondary">Межевой план, технический план и т.п.</p>
+                            <a href="#" class="btn btn-warning btn-block">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <img class="rounded" src="images/service_project.png" alt="Проектирование" width="100%">
+                            <h5 class="card-title mt-4 mb-4">Проектирование</h5>
+                            <p class="card-text text-secondary">Разработка проектов зданий, сооружений и т.п.</p>
+                            <a href="#" class="btn btn-warning btn-block">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <img class="rounded" src="images/service_geo.png" alt="Геодезические работы" width="100%">
+                            <h5 class="card-title mt-4 mb-4">Геодезические работы</h5>
+                            <p class="card-text text-secondary">Вынос участка, определение координат зданий и т.п.</p>
+                            <a href="#" class="btn btn-warning btn-block">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    </div>
-    <!-- /.container -->
+    <!-- About -->
+    <section id="about">
+        <div class="container">
+            <h3 class="text-center">О Компании</h3>
+            <div class="row mt-5">
+                <div class="col-md-6 col-sm-12">
+                    <img src="images/fon-geodezist-min.png" alt="" class="rounded" width="100%">
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <p class="text-justify">
+                        Компания "Землемер" (ИП Надыршин Ильфат Миллятович) организована в 2011 году. Мы выполняем целый
+                        спектр услуг в области геодезии, землеустроительных и кадастровых работ, топографии и
+                        картографии, разработке проектов зданий и сооружений. Наша организация ведет активную социальную
+                        политику. Объекты социального и религиозного назначения выполняются со скидкой 50% или
+                        безвозмездно. Основными принципами организации являются: высокое качество и быстрые сроки
+                        выполнения заказов, это достигается по средствам передовых технологий и современного
+                        оборудования. Одно из достоинств нашей компании заключается в том, что мы работаем только с
+                        современным программным обеспечением и геодезическими приборами: электронными тахеометрами и
+                        высокоточными GNSS оборудованием, что позволяет выполнять работы с высокой скоростью и
+                        точностью.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- Contacts -->
+    <section id="contacts">
+        <div class="container">
+            <h3 class="text-center">Контакты</h3>
+            <div class="row mt-5">
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h6 class="card-title mt-4">Адрес</h6>
+                            <p class="card-text text-secondary"><small>Респ. Башкортостан, р-н Абзелиловский,
+                                    с.Аскарово,
+                                    ул.Ленина, д.35</small></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h6 class="card-title mt-4">Время работы</h6>
+                            <p class="card-text text-secondary"><small>Пн-Пт: 9:00 - 17:00<br>Сб, Вс: выходной</small>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h6 class="card-title mt-4">Наши телефоны</h6>
+                            <p class="card-text text-secondary"><small>моб.: +7(909)346-43-30<br>офис:
+                                    +7(34772)2-02-77</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="page-footer font-small bg-dark text-light">
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">
+            © Copyright 2019. Землемер | Все права защищены
+        </div>
+        <!-- Copyright -->
+
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
