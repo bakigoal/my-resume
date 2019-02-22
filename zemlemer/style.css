@@ -1,5 +1,11 @@
+@font-face {
+    font-family: 'ZemlemerFont';
+    src: url('fonts/780.ttf')  format('truetype');
+}
+
 .navbar-brand {
-    font-size: 29px;
+    font-family: 'ZemlemerFont';
+    font-size: 36px;
 }
 
 /* Carousel */
