@@ -44,7 +44,7 @@ h2 {
 }
 
 .list-social-icons a:hover {
-  color: #e0a80d;
+  color: #E31B6D;
 }
 
 .list-social-icons a .fa-lg {
@@ -56,7 +56,7 @@ h2 {
 }
 
 .list-icons .list-inline-item i:hover {
-  color: #e0a80d;
+  color: #E31B6D;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -108,7 +108,7 @@ section.resume-section {
   /*border-bottom: 1px solid #dee2e6;*/
   padding-top: 5rem !important;
   padding-bottom: 5rem !important;
-  background-color: #2d2e2e !important;  
+  background-color: #37474f !important;  
 }
 
 section.resume-section .resume-item .resume-date {
@@ -116,7 +116,7 @@ section.resume-section .resume-item .resume-date {
 }
 
 section.resume-section.resume-section-even {
-  background-color: #292a2a !important;  
+  background-color: #293238 !important;  
 }
 
 @media (min-width: 768px) {
@@ -136,19 +136,19 @@ section.resume-section.resume-section-even {
 }
 
 .bg-primary {
-  background-color: #e0a80d !important;
+  background-color: #E31B6D !important;
 }
 
 nav.bg-primary {
-  background-color: #2b2c2c !important;  
+  background-color: #263238 !important;  
 }
 
 .text-primary {
-  color: #e0a80d !important;
+  color: #E31B6D !important;
 }
 
 a {
-  color: #e0a80d;
+  color: #E31B6D;
 }
 
 a:hover {
