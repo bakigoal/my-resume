@@ -14,12 +14,17 @@
         "technologies": [
           "Java 8",
           "Spring",
+          "JAX-RS",
+          "EJB",
+          "JBoss",
           "Hibernate",
           "PostgreSQL",
-          "JAX-RS",
-          "AngularJS",
+          "Liquibase",
+          "ActiveMQ",
+          "XSD",
+          "SOAP",
           "Gradle",
-          "JIRA"
+          "AngularJS"
         ]
       },
       {
@@ -30,13 +35,13 @@
         ],
         "technologies": [
           "Java 8",
-          "Spring",
-          "Hibernate",
+          "Spring (Boot, MVC, Data)",
+          "CryptoPro 2.0",
           "PostgreSQL",
-          "JAX-RS",
-          "AngularJS",
-          "Gradle",
-          "JIRA"
+          "Apache Kafka",
+          "Swagger",
+          "Maven",
+          "Angular 7"
         ]
       },
       {
@@ -47,14 +52,17 @@
           "Написание джобов, jmx метрик, юнит тестов"
         ],
         "technologies": [
-          "Java 8",
-          "Spring",
-          "Hibernate",
+          "Java 11",
+          "Spring (Boot, MVC, Data, Security)",
+          "JWT",
+          "Keycloak",
           "PostgreSQL",
-          "JAX-RS",
-          "AngularJS",
+          "Liquibase",
+          "Apache Kafka",
+          "Swagger",
           "Gradle",
-          "JIRA"
+          "Docker",
+          "VueJS"
         ]
       }
     ],
