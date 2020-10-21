@@ -3,38 +3,84 @@
     "site": "http://www.xrm.ru/",
     "company": "Экстрим ПРО",
     "job_title": "Разработчик ПО",
-    "responsibilities": [
-      "Поддержка и рефакторинг существующего java и javascript кода"
-    ],
-    "technologies": [
-      "Java 8",
-      "Spring",
-      "Hibernate",
-      "PostgreSQL",
-      "JAX-RS",
-      "AngularJS",
-      "Gradle",
-      "JIRA"
+    "projects": [
+      {
+        "name": "Проект 1",
+        "responsibilities": [
+          "Исправление багов, рефакторинг, оптимизация",
+          "Добавление нового функционала",
+          "Написание скриптов на bash."
+        ],
+        "technologies": [
+          "Java 8",
+          "Spring",
+          "Hibernate",
+          "PostgreSQL",
+          "JAX-RS",
+          "AngularJS",
+          "Gradle",
+          "JIRA"
+        ]
+      },
+      {
+        "name": "Проект 2",
+        "responsibilities": [
+          "Создание сервиса для обновления цифровых сертификатов КриптоПро",
+          "Развертывание приложения на сервере"
+        ],
+        "technologies": [
+          "Java 8",
+          "Spring",
+          "Hibernate",
+          "PostgreSQL",
+          "JAX-RS",
+          "AngularJS",
+          "Gradle",
+          "JIRA"
+        ]
+      },
+      {
+        "name": "Проект 3",
+        "responsibilities": [
+          "Разработка подсистемы взаимодействия с внешними источниками данных",
+          "Настройка аутентификации и авторизации",
+          "Написание джобов, jmx метрик, юнит тестов"
+        ],
+        "technologies": [
+          "Java 8",
+          "Spring",
+          "Hibernate",
+          "PostgreSQL",
+          "JAX-RS",
+          "AngularJS",
+          "Gradle",
+          "JIRA"
+        ]
+      }
     ],
     "start_date": "Декабрь 2018",
-    "end_date": "настоящее время"
+    "end_date": "Июль 2020"
   },
   {
     "site": "http://www.open.ru/",
     "company": "Финансовая корпорация \"Открытие\"",
     "job_title": "Java Разработчик",
-    "responsibilities": [
-      "Исправление багов, рефакторинг и доработка функционала на бэкенде"
-    ],
-    "technologies": [
-      "Java 8",
-      "Spring(Core, Boot, Cloud)",
-      "Hibernate",
-      "PostgreSQL",
-      "Gradle",
-      "Git",
-      "Jenkins",
-      "JIRA"
+    "projects": [
+      {
+        "responsibilities": [
+          "Исправление багов, рефакторинг и доработка функционала на бэкенде"
+        ],
+        "technologies": [
+          "Java 8",
+          "Spring(Core, Boot, Cloud)",
+          "Hibernate",
+          "PostgreSQL",
+          "Gradle",
+          "Git",
+          "Jenkins",
+          "JIRA"
+        ]
+      }
     ],
     "start_date": "Сентябрь 2018",
     "end_date": "Ноябрь 2018"
@@ -43,39 +89,47 @@
     "site": "",
     "company": "Фриланс",
     "job_title": "Java Разработчик",
-    "responsibilities": [
-      "Разработка настольных, веб и мобильных приложений для студентов"
+    "projects": [
+      {
+        "responsibilities": [
+          "Разработка настольных, веб и мобильных приложений для студентов"
+        ],
+        "technologies": [
+          "Java 8",
+          "Maven",
+          "SWING",
+          "JavaFX",
+          "Spring",
+          "JDBC",
+          "Hibernate",
+          "Android SDK"
+        ]
+      }
     ],
-    "technologies": [
-      "Java 8",
-      "Maven",
-      "SWING",
-      "JavaFX",
-      "Spring",
-      "JDBC",
-      "Hibernate",
-      "Android SDK"
-    ],
-    "start_date": "Март 2017",
-    "end_date": "Май 2018"
+    "start_date": "Январь 2018",
+    "end_date": "Сентябрь 2018"
   },
   {
     "site": "http://www.xrm.ru/",
     "company": "Экстрим ПРО",
     "job_title": "Разработчик ПО",
-    "responsibilities": [
-      "Разработка отчетов для системы <a href='https://dom.gosuslugi.ru' target='_blank'>ГИС ЖКХ</a>",
-      "Поддержка и рефакторинг существующего java и javascript кода"
-    ],
-    "technologies": [
-      "Java 8",
-      "Spring",
-      "Hibernate",
-      "PostgreSQL",
-      "JAX-RS",
-      "AngularJS",
-      "Gradle",
-      "JIRA"
+    "projects": [
+      {
+        "responsibilities": [
+          "Разработка отчетов для системы <a href='https://dom.gosuslugi.ru' target='_blank'>ГИС ЖКХ</a>",
+          "Поддержка и рефакторинг существующего java и javascript кода"
+        ],
+        "technologies": [
+          "Java 8",
+          "Spring",
+          "Hibernate",
+          "PostgreSQL",
+          "JAX-RS",
+          "AngularJS",
+          "Gradle",
+          "JIRA"
+        ]
+      }
     ],
     "start_date": "Сентябрь 2017",
     "end_date": "Январь 2018"
@@ -84,22 +138,26 @@
     "site": "https://www.voskhod.ru/",
     "company": "ФГБУ НИИ \"Восход\"",
     "job_title": "Разработчик ПО",
-    "responsibilities": [
-      "Разработка кода по ТЗ",
-      "Поддержка и рефакторинг существующего java кода"
-    ],
-    "technologies": [
-      "Java 8",
-      "PostgreSQL",
-      "Spring",
-      "Hibernate",
-      "Active MQ",
-      "Linux",
-      "Maven",
-      "Gradle",
-      "Git",
-      "JIRA",
-      "Confluence"
+    "projects": [
+      {
+        "responsibilities": [
+          "Разработка кода по ТЗ",
+          "Поддержка и рефакторинг существующего java кода"
+        ],
+        "technologies": [
+          "Java 8",
+          "PostgreSQL",
+          "Spring",
+          "Hibernate",
+          "Active MQ",
+          "Linux",
+          "Maven",
+          "Gradle",
+          "Git",
+          "JIRA",
+          "Confluence"
+        ]
+      }
     ],
     "start_date": "Октябрь 2016",
     "end_date": "Февраль 2017"
@@ -108,22 +166,26 @@
     "site": "http://iis-soft.ru/en/index.html",
     "company": "Комплексные Информационные Решения",
     "job_title": "Java Разработчик",
-    "responsibilities": [
-      "Создание и доработка элементов пользовательского интерфейса",
-      "Разработка логики наполнения данными и их обработки"
-    ],
-    "technologies": [
-      "Java 8",
-      "Spring",
-      "Hibernate",
-      "Vaadin",
-      "BIRT",
-      "PostgreSQL",
-      "Liquibase",
-      "Gradle",
-      "Git",
-      "JIRA",
-      "Redmine"
+    "projects": [
+      {
+        "responsibilities": [
+          "Создание и доработка элементов пользовательского интерфейса",
+          "Разработка логики наполнения данными и их обработки"
+        ],
+        "technologies": [
+          "Java 8",
+          "Spring",
+          "Hibernate",
+          "Vaadin",
+          "BIRT",
+          "PostgreSQL",
+          "Liquibase",
+          "Gradle",
+          "Git",
+          "JIRA",
+          "Redmine"
+        ]
+      }
     ],
     "start_date": "Июнь 2015",
     "end_date": "Июль 2016"
