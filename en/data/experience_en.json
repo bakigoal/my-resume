@@ -1,15 +1,15 @@
 [
   {
     "site": "http://www.xrm.ru/",
-    "company": "Экстрим ПРО",
-    "job_title": "Разработчик ПО",
+    "company": "Extreme PRO",
+    "job_title": "Java Developer",
     "projects": [
       {
-        "name": "Проект 1",
+        "name": "Project1 1",
         "responsibilities": [
-          "Исправление багов, рефакторинг, оптимизация",
-          "Добавление нового функционала",
-          "Написание скриптов на bash."
+          "Bug fixing, refactoring, optimization",
+          "Adding new features",
+          "Writing developer environment build scripts in Bash"
         ],
         "technologies": [
           "Java 8",
@@ -28,10 +28,10 @@
         ]
       },
       {
-        "name": "Проект 2",
+        "name": "Project 2",
         "responsibilities": [
-          "Создание сервиса для обновления цифровых сертификатов КриптоПро",
-          "Развертывание приложения на сервере"
+          "Creating a service for updating CryptoPro certificates",
+          "Deploying the application in the server"
         ],
         "technologies": [
           "Java 8",
@@ -45,11 +45,11 @@
         ]
       },
       {
-        "name": "Проект 3",
+        "name": "Project 3",
         "responsibilities": [
-          "Разработка подсистемы взаимодействия с внешними источниками данных",
-          "Настройка аутентификации и авторизации",
-          "Написание джобов, jmx метрик, юнит тестов"
+          "Creating a subsystem for integration with external systems",
+          "Setting up Authentication and Authorization",
+          "Creating schedulers, JMX metrics, unit tests"
         ],
         "technologies": [
           "Java 11",
@@ -66,17 +66,17 @@
         ]
       }
     ],
-    "start_date": "Декабрь 2018",
-    "end_date": "Июль 2020"
+    "start_date": "December 2018",
+    "end_date": "July 2020"
   },
   {
     "site": "http://www.open.ru/",
-    "company": "Финансовая корпорация \"Открытие\"",
-    "job_title": "Java Разработчик",
+    "company": "Open Bank",
+    "job_title": "Java Developer",
     "projects": [
       {
         "responsibilities": [
-          "Исправление багов, рефакторинг и доработка функционала на бэкенде"
+          "Bug fixing, refactoring and adding new features on backend"
         ],
         "technologies": [
           "Java 8",
@@ -90,17 +90,17 @@
         ]
       }
     ],
-    "start_date": "Октябрь 2018",
-    "end_date": "Ноябрь 2018"
+    "start_date": "October 2018",
+    "end_date": "November 2018"
   },
   {
     "site": "",
-    "company": "Фриланс",
-    "job_title": "Java Разработчик",
+    "company": "Freelance",
+    "job_title": "Java Developer",
     "projects": [
       {
         "responsibilities": [
-          "Разработка настольных, веб и мобильных приложений для студентов"
+          "Developing Desktop, Web and Mobile applications for students"
         ],
         "technologies": [
           "Java 8",
@@ -114,18 +114,18 @@
         ]
       }
     ],
-    "start_date": "Январь 2018",
-    "end_date": "Сентябрь 2018"
+    "start_date": "January 2018",
+    "end_date": "September 2018"
   },
   {
     "site": "http://www.xrm.ru/",
-    "company": "Экстрим ПРО",
-    "job_title": "Разработчик ПО",
+    "company": "Extreme PRO",
+    "job_title": "Java Developer",
     "projects": [
       {
         "responsibilities": [
-          "Разработка отчетов для системы <a href='https://dom.gosuslugi.ru' target='_blank'>ГИС ЖКХ</a>",
-          "Поддержка и рефакторинг существующего java и javascript кода"
+          "Developing new reports for the system",
+          "Maintaining and refactoring existing java and javascript code"
         ],
         "technologies": [
           "Java 8",
@@ -139,18 +139,18 @@
         ]
       }
     ],
-    "start_date": "Сентябрь 2017",
-    "end_date": "Декабрь 2017"
+    "start_date": "September 2017",
+    "end_date": "December 2017"
   },
   {
     "site": "https://www.voskhod.ru/",
-    "company": "ФГБУ НИИ \"Восход\"",
-    "job_title": "Разработчик ПО",
+    "company": "VGBU NII VOSKHOD",
+    "job_title": "Java Developer",
     "projects": [
       {
         "responsibilities": [
-          "Разработка кода по ТЗ",
-          "Поддержка и рефакторинг существующего java кода"
+          "Developing the Code as per the requirements",
+          "Maintaining and refactoring existing java code"
         ],
         "technologies": [
           "Java 8",
@@ -167,18 +167,17 @@
         ]
       }
     ],
-    "start_date": "Октябрь 2016",
-    "end_date": "Февраль 2017"
+    "start_date": "October 2016",
+    "end_date": "February 2017"
   },
   {
     "site": "http://iis-soft.ru/en/index.html",
-    "company": "Комплексные Информационные Решения",
-    "job_title": "Java Разработчик",
+    "company": "INTEGRATED INFORMATION SOLUTIONS",
+    "job_title": "Java Developer",
     "projects": [
       {
         "responsibilities": [
-          "Создание и доработка элементов пользовательского интерфейса",
-          "Разработка логики наполнения данными и их обработки"
+          "Developing and maintaining an online Document Management System"
         ],
         "technologies": [
           "Java 8",
@@ -195,7 +194,7 @@
         ]
       }
     ],
-    "start_date": "Июнь 2015",
-    "end_date": "Июль 2016"
+    "start_date": "June 2015",
+    "end_date": "July 2016"
   }
 ]

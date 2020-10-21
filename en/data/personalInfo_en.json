@@ -1,0 +1,22 @@
+{
+  "firstName": "Ilmir",
+  "lastName": "Bakirov",
+  "title": "Java Developer",
+  "addressText": "Ufa, Russia",
+  "phone": "+7 (909) 347-22-77",
+  "email": "ilmirbakirov@gmail.com",
+  "socialLinks": [
+    {
+      "url": "https://www.facebook.com/ilmir.bakirov",
+      "faIconClass": "fa-facebook"
+    },
+    {
+      "url": "https://www.linkedin.com/in/bakigoal/",
+      "faIconClass": "fa-linkedin"
+    },
+    {
+      "url": "https://github.com/baki10",
+      "faIconClass": "fa-github"
+    }
+  ]
+}
