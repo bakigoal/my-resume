@@ -1,4 +1,4 @@
-export function build(urls, isEnglish) {
+export function buildUISections(urls, isEnglish) {
     loadJson(urls.personalInfo, fillPersonalInfo);
     loadJson(urls.experience, experienceList => fillExperience(experienceList, isEnglish));
 }
