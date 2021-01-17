@@ -1,0 +1,74 @@
+{
+  "icons": [
+    "java",
+    "git",
+    "intellij",
+    "javascript",
+    "angular",
+    "linux",
+    "vim",
+    "docker",
+    "postgresql"
+  ],
+  "skills": [
+    {
+      "title": "Technologies & Frameworks",
+      "values": [
+        "Spring (Core, MVC, Data, Security)",
+        "Java EE",
+        "Servlet",
+        "JAX-RS",
+        "REST",
+        "SOAP",
+        "JDBC",
+        "ORM (Hibernate)",
+        "JavaFX",
+        "SWING"
+      ]
+    },
+    {
+      "title": "Web",
+      "values": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Angular"
+      ]
+    },
+    {
+      "title": "Databases",
+      "values": [
+        "PostgreSQL",
+        "MySQL",
+        "H2",
+        "Redis"
+      ]
+    },
+    {
+      "title": "Development Tools",
+      "values": [
+        "Gradle",
+        "Maven",
+        "Git",
+        "Docker"
+      ]
+    },
+    {
+      "title": "IDE",
+      "values": [
+        "Intellij Idea",
+        "Netbeans",
+        "Android Studio",
+        "VS Code",
+        "Vim"
+      ]
+    },
+    {
+      "title": "OS",
+      "values": [
+        "Linux",
+        "Windows"
+      ]
+    }
+  ]
+}

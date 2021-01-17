@@ -1,8 +1,12 @@
-import {buildUISections} from '../../shared/js/ui_builder.js';
+import {buildUISections} from '../../shared/js/ui_builder.js'
 
-const urls = {};
-urls.personalInfo = "../data/personalInfo_en.json";
-urls.experience = "../data/experience_en.json";
-let isEnglish = true;
+const urls = {
+    personalInfo: "../data/personalInfo_en.json",
+    experience: "../data/experience_en.json",
+    skills: "../data/skills.json",
+    hobby: "../data/hobby_en.json"
+}
 
-buildUISections(urls, isEnglish);
+let isEnglish = true
+
+buildUISections(urls, isEnglish)
