@@ -1,8 +1,8 @@
-export function buildUISections(urls, isEnglish) {
-    loadJson(urls.personalInfo, fillPersonalInfo)
-    loadJson(urls.experience, fillExperience)
-    loadJson(urls.skills, fillSkills)
-    loadJson(urls.hobby, fillHobby)
+export function buildUISections(urls) {
+    loadJson(urls.personalInfo).then(fillPersonalInfo)
+    loadJson(urls.experience).then(fillExperience)
+    loadJson(urls.skills).then(fillSkills)
+    loadJson(urls.hobby).then(fillHobby)
 }
 
 // UI vars
@@ -12,15 +12,17 @@ const uiSkills = document.querySelector('#skills')
 const uiEducation = document.querySelector('#education')
 const uiHobby = document.querySelector('#hobby')
 
-function loadJson(url, success) {
-    let request = new XMLHttpRequest()
-    request.open('GET', url, true)
-    request.onload = function () {
-        if (this.status === 200) {
-            success(JSON.parse(this.responseText))
+function loadJson(url) {
+    return new Promise(resolve => {
+        let request = new XMLHttpRequest()
+        request.open('GET', url, true)
+        request.onload = function () {
+            if (this.status === 200) {
+                resolve(JSON.parse(this.responseText))
+            }
         }
-    }
-    request.send()
+        request.send()
+    })
 }
 
 // CREATING UI -----------------------------------------------------------
