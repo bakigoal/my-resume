@@ -5,27 +5,17 @@ export function buildUISections(urls) {
     loadJson(urls.hobby).then(fillHobby)
 }
 
+function loadJson(url) {
+    return fetch(url).then(response => response.json())
+}
+
+// CREATING UI -----------------------------------------------------------
 // UI vars
 const uiAbout = document.querySelector('#about')
 const uiExperience = document.querySelector('#experience')
 const uiSkills = document.querySelector('#skills')
 const uiEducation = document.querySelector('#education')
 const uiHobby = document.querySelector('#hobby')
-
-function loadJson(url) {
-    return new Promise(resolve => {
-        let request = new XMLHttpRequest()
-        request.open('GET', url, true)
-        request.onload = function () {
-            if (this.status === 200) {
-                resolve(JSON.parse(this.responseText))
-            }
-        }
-        request.send()
-    })
-}
-
-// CREATING UI -----------------------------------------------------------
 
 function fillPersonalInfo(personalInfo) { // UI using innerHtml and ``
     let socialList = '<ul class="list-inline list-social-icons mb-0">'
