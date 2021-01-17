@@ -1,6 +1,6 @@
 export function buildUISections(urls, isEnglish) {
     loadJson(urls.personalInfo, fillPersonalInfo)
-    loadJson(urls.experience, experienceList => fillExperience(experienceList, isEnglish))
+    loadJson(urls.experience, fillExperience)
     loadJson(urls.skills, fillSkills)
     loadJson(urls.hobby, fillHobby)
 }
@@ -62,15 +62,15 @@ function fillPersonalInfo(personalInfo) { // UI using innerHtml and ``
   `
 }
 
-function fillExperience(experienceList, isEnglish) { // UI using DOM manipulation
+function fillExperience(experience) { // UI using DOM manipulation
     const div = document.createElement('div')
     div.className = 'my-auto'
     const experienceLabel = document.createElement('h2')
     experienceLabel.className = 'mb-5'
-    experienceLabel.innerText = isEnglish ? 'Experience' : 'Опыт работы'
+    experienceLabel.innerText = experience.title
     div.appendChild(experienceLabel)
 
-    experienceList.forEach(function (experience) {
+    experience.experienceList.forEach(function (experience) {
 
         const experienceDiv = document.createElement('div')
         experienceDiv.className = 'resume-item d-flex flex-column flex-md-row mb-5'

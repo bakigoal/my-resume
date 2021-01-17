@@ -1,215 +1,218 @@
-[
-  {
-    "site": "http://www.xrm.ru/",
-    "company": "Extreme PRO",
-    "job_title": "Java Developer",
-    "projects": [
-      {
-        "name": "Integration with external systems",
-        "responsibilities": [
-          "Developed new features and components",
-          "Set up Authentication and Authorization",
-          "Created scheduler tasks",
-          "Wrote unit and integration tests"
-        ],
-        "technologies": [
-          "Java 11",
-          "Spring (Boot, MVC, Data, Security)",
-          "JWT",
-          "Keycloak",
-          "PostgreSQL",
-          "Liquibase",
-          "Apache Kafka",
-          "Swagger",
-          "Gradle",
-          "Docker",
-          "VueJS"
-        ]
-      },
-      {
-        "name": "Certificate updater",
-        "responsibilities": [
-          "Developed new features and components",
-          "Created technical documentation for reference and reporting",
-          "Created scheduler tasks",
-          "Developed SPA using Angular",
-          "Wrote unit tests"
-        ],
-        "technologies": [
-          "Java 8",
-          "Spring (Boot, MVC, Data)",
-          "CryptoPro 2.0",
-          "PostgreSQL",
-          "Apache Kafka",
-          "Swagger",
-          "Maven",
-          "Angular 7"
-        ]
-      },
-      {
-        "name": "Housing and communal services system",
-        "responsibilities": [
-          "Developed new features and components",
-          "Provided code refactoring and optimization of the system",
-          "Developed SPA using AngularJS",
-          "Wrote unit tests"
-        ],
-        "technologies": [
-          "Java 8",
-          "Spring",
-          "JAX-RS",
-          "EJB",
-          "JBoss",
-          "Hibernate",
-          "PostgreSQL",
-          "Liquibase",
-          "ActiveMQ",
-          "XSD",
-          "SOAP",
-          "Gradle",
-          "AngularJS"
-        ]
-      }
-    ],
-    "start_date": "December 2018",
-    "end_date": "July 2020"
-  },
-  {
-    "site": "http://www.open.ru/",
-    "company": "Open Bank",
-    "job_title": "Java Developer",
-    "projects": [
-      {
-        "name": "Banking information system",
-        "responsibilities": [
-          "Developed new features and components",
-          "Provided code refactoring",
-          "Fixed bugs"
-        ],
-        "technologies": [
-          "Java 8",
-          "Spring(Core, Boot, Cloud)",
-          "Hibernate",
-          "PostgreSQL",
-          "Gradle",
-          "Git",
-          "Jenkins",
-          "JIRA"
-        ]
-      }
-    ],
-    "start_date": "October 2018",
-    "end_date": "November 2018"
-  },
-  {
-    "site": "",
-    "company": "Freelance",
-    "job_title": "Java Developer",
-    "projects": [
-      {
-        "responsibilities": [
-          "Developed new features and components",
-          "Provided code refactoring",
-          "Utilized good design practices, code reuse and wrote efficient source code",
-          "Fixed bugs"
-        ],
-        "technologies": [
-          "Java 8",
-          "Maven",
-          "SWING",
-          "JavaFX",
-          "Spring",
-          "JDBC",
-          "Hibernate",
-          "Android SDK"
-        ]
-      }
-    ],
-    "start_date": "January 2018",
-    "end_date": "September 2018"
-  },
-  {
-    "site": "http://www.xrm.ru/",
-    "company": "Extreme PRO",
-    "job_title": "Java Developer",
-    "projects": [
-      {
-        "name": "Housing and communal services system",
-        "responsibilities": [
-          "Developing new reports for the system",
-          "Maintaining and refactoring existing java and javascript code"
-        ],
-        "technologies": [
-          "Java 8",
-          "Spring",
-          "Hibernate",
-          "PostgreSQL",
-          "JAX-RS",
-          "AngularJS",
-          "Gradle",
-          "JIRA"
-        ]
-      }
-    ],
-    "start_date": "September 2017",
-    "end_date": "December 2017"
-  },
-  {
-    "site": "https://www.voskhod.ru/",
-    "company": "VGBU NII VOSKHOD",
-    "job_title": "Java Developer",
-    "projects": [
-      {
-        "responsibilities": [
-          "Developed new features and components",
-          "Maintained and refactored existing java code",
-          "Fixed bugs"
-        ],
-        "technologies": [
-          "Java 8",
-          "PostgreSQL",
-          "Spring",
-          "Hibernate",
-          "Active MQ",
-          "Linux",
-          "Maven",
-          "Gradle",
-          "Git",
-          "JIRA",
-          "Confluence"
-        ]
-      }
-    ],
-    "start_date": "October 2016",
-    "end_date": "February 2017"
-  },
-  {
-    "site": "http://iis-soft.ru/en/index.html",
-    "company": "INTEGRATED INFORMATION SOLUTIONS",
-    "job_title": "Java Developer",
-    "projects": [
-      {
-        "responsibilities": [
-          "Developed new features and components",
-          "Maintained the application",
-          "Fixed bugs"
-        ],
-        "technologies": [
-          "Java 8",
-          "Spring",
-          "Hibernate",
-          "Vaadin",
-          "BIRT",
-          "PostgreSQL",
-          "Liquibase",
-          "Gradle",
-          "Git",
-          "JIRA",
-          "Redmine"
-        ]
-      }
-    ],
-    "start_date": "June 2015",
-    "end_date": "July 2016"
-  }
-]
+{
+  "title": "Experience",
+  "experienceList": [
+    {
+      "site": "http://www.xrm.ru/",
+      "company": "Extreme PRO",
+      "job_title": "Java Developer",
+      "projects": [
+        {
+          "name": "Integration with external systems",
+          "responsibilities": [
+            "Developed new features and components",
+            "Set up Authentication and Authorization",
+            "Created scheduler tasks",
+            "Wrote unit and integration tests"
+          ],
+          "technologies": [
+            "Java 11",
+            "Spring (Boot, MVC, Data, Security)",
+            "JWT",
+            "Keycloak",
+            "PostgreSQL",
+            "Liquibase",
+            "Apache Kafka",
+            "Swagger",
+            "Gradle",
+            "Docker",
+            "VueJS"
+          ]
+        },
+        {
+          "name": "Certificate updater",
+          "responsibilities": [
+            "Developed new features and components",
+            "Created technical documentation for reference and reporting",
+            "Created scheduler tasks",
+            "Developed SPA using Angular",
+            "Wrote unit tests"
+          ],
+          "technologies": [
+            "Java 8",
+            "Spring (Boot, MVC, Data)",
+            "CryptoPro 2.0",
+            "PostgreSQL",
+            "Apache Kafka",
+            "Swagger",
+            "Maven",
+            "Angular 7"
+          ]
+        },
+        {
+          "name": "Housing and communal services system",
+          "responsibilities": [
+            "Developed new features and components",
+            "Provided code refactoring and optimization of the system",
+            "Developed SPA using AngularJS",
+            "Wrote unit tests"
+          ],
+          "technologies": [
+            "Java 8",
+            "Spring",
+            "JAX-RS",
+            "EJB",
+            "JBoss",
+            "Hibernate",
+            "PostgreSQL",
+            "Liquibase",
+            "ActiveMQ",
+            "XSD",
+            "SOAP",
+            "Gradle",
+            "AngularJS"
+          ]
+        }
+      ],
+      "start_date": "December 2018",
+      "end_date": "July 2020"
+    },
+    {
+      "site": "http://www.open.ru/",
+      "company": "Open Bank",
+      "job_title": "Java Developer",
+      "projects": [
+        {
+          "name": "Banking information system",
+          "responsibilities": [
+            "Developed new features and components",
+            "Provided code refactoring",
+            "Fixed bugs"
+          ],
+          "technologies": [
+            "Java 8",
+            "Spring(Core, Boot, Cloud)",
+            "Hibernate",
+            "PostgreSQL",
+            "Gradle",
+            "Git",
+            "Jenkins",
+            "JIRA"
+          ]
+        }
+      ],
+      "start_date": "October 2018",
+      "end_date": "November 2018"
+    },
+    {
+      "site": "",
+      "company": "Freelance",
+      "job_title": "Java Developer",
+      "projects": [
+        {
+          "responsibilities": [
+            "Developed new features and components",
+            "Provided code refactoring",
+            "Utilized good design practices, code reuse and wrote efficient source code",
+            "Fixed bugs"
+          ],
+          "technologies": [
+            "Java 8",
+            "Maven",
+            "SWING",
+            "JavaFX",
+            "Spring",
+            "JDBC",
+            "Hibernate",
+            "Android SDK"
+          ]
+        }
+      ],
+      "start_date": "January 2018",
+      "end_date": "September 2018"
+    },
+    {
+      "site": "http://www.xrm.ru/",
+      "company": "Extreme PRO",
+      "job_title": "Java Developer",
+      "projects": [
+        {
+          "name": "Housing and communal services system",
+          "responsibilities": [
+            "Developing new reports for the system",
+            "Maintaining and refactoring existing java and javascript code"
+          ],
+          "technologies": [
+            "Java 8",
+            "Spring",
+            "Hibernate",
+            "PostgreSQL",
+            "JAX-RS",
+            "AngularJS",
+            "Gradle",
+            "JIRA"
+          ]
+        }
+      ],
+      "start_date": "September 2017",
+      "end_date": "December 2017"
+    },
+    {
+      "site": "https://www.voskhod.ru/",
+      "company": "VGBU NII VOSKHOD",
+      "job_title": "Java Developer",
+      "projects": [
+        {
+          "responsibilities": [
+            "Developed new features and components",
+            "Maintained and refactored existing java code",
+            "Fixed bugs"
+          ],
+          "technologies": [
+            "Java 8",
+            "PostgreSQL",
+            "Spring",
+            "Hibernate",
+            "Active MQ",
+            "Linux",
+            "Maven",
+            "Gradle",
+            "Git",
+            "JIRA",
+            "Confluence"
+          ]
+        }
+      ],
+      "start_date": "October 2016",
+      "end_date": "February 2017"
+    },
+    {
+      "site": "http://iis-soft.ru/en/index.html",
+      "company": "INTEGRATED INFORMATION SOLUTIONS",
+      "job_title": "Java Developer",
+      "projects": [
+        {
+          "responsibilities": [
+            "Developed new features and components",
+            "Maintained the application",
+            "Fixed bugs"
+          ],
+          "technologies": [
+            "Java 8",
+            "Spring",
+            "Hibernate",
+            "Vaadin",
+            "BIRT",
+            "PostgreSQL",
+            "Liquibase",
+            "Gradle",
+            "Git",
+            "JIRA",
+            "Redmine"
+          ]
+        }
+      ],
+      "start_date": "June 2015",
+      "end_date": "July 2016"
+    }
+  ]
+}

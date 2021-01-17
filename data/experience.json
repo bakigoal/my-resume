@@ -1,4 +1,6 @@
-[
+{
+  "title": "Опыт работы",
+  "experienceList": [
   {
     "site": "http://www.xrm.ru/",
     "company": "Экстрим ПРО",
@@ -199,3 +201,4 @@
     "end_date": "Июль 2016"
   }
 ]
+}
