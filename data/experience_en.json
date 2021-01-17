@@ -5,11 +5,54 @@
     "job_title": "Java Developer",
     "projects": [
       {
-        "name": "Project1 1",
+        "name": "Integration with external systems",
         "responsibilities": [
-          "Bug fixing, refactoring, optimization",
-          "Adding new features",
-          "Writing developer environment build scripts in Bash"
+          "Developed new features and components",
+          "Set up Authentication and Authorization",
+          "Created scheduler tasks",
+          "Wrote unit and integration tests"
+        ],
+        "technologies": [
+          "Java 11",
+          "Spring (Boot, MVC, Data, Security)",
+          "JWT",
+          "Keycloak",
+          "PostgreSQL",
+          "Liquibase",
+          "Apache Kafka",
+          "Swagger",
+          "Gradle",
+          "Docker",
+          "VueJS"
+        ]
+      },
+      {
+        "name": "Certificate updater",
+        "responsibilities": [
+          "Developed new features and components",
+          "Created technical documentation for reference and reporting",
+          "Created scheduler tasks",
+          "Developed SPA using Angular",
+          "Wrote unit tests"
+        ],
+        "technologies": [
+          "Java 8",
+          "Spring (Boot, MVC, Data)",
+          "CryptoPro 2.0",
+          "PostgreSQL",
+          "Apache Kafka",
+          "Swagger",
+          "Maven",
+          "Angular 7"
+        ]
+      },
+      {
+        "name": "Housing and communal services system",
+        "responsibilities": [
+          "Developed new features and components",
+          "Provided code refactoring and optimization of the system",
+          "Developed SPA using AngularJS",
+          "Wrote unit tests"
         ],
         "technologies": [
           "Java 8",
@@ -26,44 +69,6 @@
           "Gradle",
           "AngularJS"
         ]
-      },
-      {
-        "name": "Project 2",
-        "responsibilities": [
-          "Creating a service for updating CryptoPro certificates",
-          "Deploying the application in the server"
-        ],
-        "technologies": [
-          "Java 8",
-          "Spring (Boot, MVC, Data)",
-          "CryptoPro 2.0",
-          "PostgreSQL",
-          "Apache Kafka",
-          "Swagger",
-          "Maven",
-          "Angular 7"
-        ]
-      },
-      {
-        "name": "Project 3",
-        "responsibilities": [
-          "Creating a subsystem for integration with external systems",
-          "Setting up Authentication and Authorization",
-          "Creating schedulers, JMX metrics, unit tests"
-        ],
-        "technologies": [
-          "Java 11",
-          "Spring (Boot, MVC, Data, Security)",
-          "JWT",
-          "Keycloak",
-          "PostgreSQL",
-          "Liquibase",
-          "Apache Kafka",
-          "Swagger",
-          "Gradle",
-          "Docker",
-          "VueJS"
-        ]
       }
     ],
     "start_date": "December 2018",
@@ -75,8 +80,11 @@
     "job_title": "Java Developer",
     "projects": [
       {
+        "name": "Banking information system",
         "responsibilities": [
-          "Bug fixing, refactoring and adding new features on backend"
+          "Developed new features and components",
+          "Provided code refactoring",
+          "Fixed bugs"
         ],
         "technologies": [
           "Java 8",
@@ -100,7 +108,10 @@
     "projects": [
       {
         "responsibilities": [
-          "Developing Desktop, Web and Mobile applications for students"
+          "Developed new features and components",
+          "Provided code refactoring",
+          "Utilized good design practices, code reuse and wrote efficient source code",
+          "Fixed bugs"
         ],
         "technologies": [
           "Java 8",
@@ -123,6 +134,7 @@
     "job_title": "Java Developer",
     "projects": [
       {
+        "name": "Housing and communal services system",
         "responsibilities": [
           "Developing new reports for the system",
           "Maintaining and refactoring existing java and javascript code"
@@ -149,8 +161,9 @@
     "projects": [
       {
         "responsibilities": [
-          "Developing the Code as per the requirements",
-          "Maintaining and refactoring existing java code"
+          "Developed new features and components",
+          "Maintained and refactored existing java code",
+          "Fixed bugs"
         ],
         "technologies": [
           "Java 8",
@@ -177,7 +190,9 @@
     "projects": [
       {
         "responsibilities": [
-          "Developing and maintaining an online Document Management System"
+          "Developed new features and components",
+          "Maintained the application",
+          "Fixed bugs"
         ],
         "technologies": [
           "Java 8",
