@@ -47,6 +47,9 @@ function fillPersonalInfo(personalInfo) { // UI using innerHtml and ``
     <div class="subheading mb-5">
       ${personalInfo.title}
     </div>
+    <div class="mb-5">
+      ${personalInfo.about}
+    </div>
     <div>${personalInfo.addressText}</div>
     <div>${personalInfo.phone}</div>
     <div>
