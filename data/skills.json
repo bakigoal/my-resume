@@ -14,16 +14,20 @@
     {
       "title": "Technologies & Frameworks",
       "values": [
+        "Java 8/11",
         "Spring (Core, MVC, Data, Security)",
-        "Java EE",
         "Servlet",
         "JAX-RS",
         "REST",
+        "Swagger",
         "SOAP",
+        "XSD",
         "JDBC",
         "ORM (Hibernate)",
-        "JavaFX",
-        "SWING"
+        "ActiveMQ",
+        "Kafka",
+        "Keycloak",
+        "Docker"
       ]
     },
     {
@@ -45,19 +49,25 @@
       ]
     },
     {
+      "title": "Testing",
+      "values": [
+        "JUnit",
+        "Mockito"
+      ]
+    },
+    {
       "title": "Development Tools",
       "values": [
         "Gradle",
         "Maven",
         "Git",
-        "Docker"
+        "Liquibase"
       ]
     },
     {
       "title": "IDE",
       "values": [
         "Intellij Idea",
-        "Netbeans",
         "Android Studio",
         "VS Code",
         "Vim"
