@@ -13,7 +13,7 @@
   ],
   "skills": [
     {
-      "title": "Технологии & Фреймворки",
+      "title": "Technologies & Frameworks",
       "values": [
         "Java 8/11",
         "Spring (Core, MVC, Data, Security)",
@@ -32,7 +32,7 @@
       ]
     },
     {
-      "title": "Веб",
+      "title": "Web",
       "values": [
         "HTML",
         "CSS",
@@ -41,7 +41,7 @@
       ]
     },
     {
-      "title": "Базы данных",
+      "title": "Databases",
       "values": [
         "PostgreSQL",
         "MySQL",
@@ -50,7 +50,7 @@
       ]
     },
     {
-      "title": "Тестирование",
+      "title": "Testing",
       "values": [
         "JUnit",
         "Mockito"
@@ -75,7 +75,7 @@
       ]
     },
     {
-      "title": "ОС",
+      "title": "OS",
       "values": [
         "Linux",
         "Windows"
