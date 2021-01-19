@@ -7,26 +7,24 @@
     "job_title": "Разработчик ПО",
     "projects": [
       {
-        "name": "Проект 1",
+        "name": "Проект 3",
         "responsibilities": [
-          "Исправление багов, рефакторинг, оптимизация",
-          "Добавление нового функционала",
-          "Написание скриптов на bash."
+          "Разработка подсистемы взаимодействия с внешними источниками данных",
+          "Настройка аутентификации и авторизации",
+          "Написание джобов, jmx метрик, юнит тестов"
         ],
         "technologies": [
-          "Java 8",
-          "Spring",
-          "JAX-RS",
-          "EJB",
-          "JBoss",
-          "Hibernate",
+          "Java 11",
+          "Spring (Boot, MVC, Data, Security)",
+          "JWT",
+          "Keycloak",
           "PostgreSQL",
           "Liquibase",
-          "ActiveMQ",
-          "XSD",
-          "SOAP",
+          "Apache Kafka",
+          "Swagger",
           "Gradle",
-          "AngularJS"
+          "Docker",
+          "VueJS"
         ]
       },
       {
@@ -47,24 +45,26 @@
         ]
       },
       {
-        "name": "Проект 3",
+        "name": "Проект 1",
         "responsibilities": [
-          "Разработка подсистемы взаимодействия с внешними источниками данных",
-          "Настройка аутентификации и авторизации",
-          "Написание джобов, jmx метрик, юнит тестов"
+          "Исправление багов, рефакторинг, оптимизация",
+          "Добавление нового функционала",
+          "Написание скриптов на bash."
         ],
         "technologies": [
-          "Java 11",
-          "Spring (Boot, MVC, Data, Security)",
-          "JWT",
-          "Keycloak",
+          "Java 8",
+          "Spring",
+          "JAX-RS",
+          "EJB",
+          "JBoss",
+          "Hibernate",
           "PostgreSQL",
           "Liquibase",
-          "Apache Kafka",
-          "Swagger",
+          "ActiveMQ",
+          "XSD",
+          "SOAP",
           "Gradle",
-          "Docker",
-          "VueJS"
+          "AngularJS"
         ]
       }
     ],
