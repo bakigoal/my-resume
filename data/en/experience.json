@@ -16,7 +16,7 @@
           ],
           "technologies": [
             "Java 11 / Kotlin",
-            "Spring(Boot, Webflux)",
+            "Spring (Boot, Webflux)",
             "R2DBC",
             "PostgreSQL",
             "Liquibase",
