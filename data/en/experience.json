@@ -2,6 +2,33 @@
   "title": "Experience",
   "experienceList": [
     {
+      "site": "http://www.cinimex.ru/",
+      "company": "Cinimex",
+      "job_title": "Java Developer",
+      "projects": [
+        {
+          "name": "Banking information system",
+          "responsibilities": [
+            "Developed new features and components using reactive approach",
+            "Provided code refactoring",
+            "Provided code review",
+            "Fixed bugs"
+          ],
+          "technologies": [
+            "Java 11 / Kotlin",
+            "Spring(Boot, Webflux)",
+            "R2DBC",
+            "PostgreSQL",
+            "Liquibase",
+            "Gradle",
+            "Linux"
+          ]
+        }
+      ],
+      "start_date": "March 2021",
+      "end_date": "November 2021"
+    },
+    {
       "site": "http://www.xrm.ru/",
       "company": "Extreme PRO",
       "job_title": "Java Developer",
