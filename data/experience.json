@@ -1,6 +1,25 @@
 {
   "title": "Опыт работы",
   "experienceList": [
+    {
+    "site": "https://ibs.ru/",
+    "company": "IBS",
+    "job_title": "Java Разработчик",
+    "projects": [
+      {
+        "responsibilities": [
+          "Создание новых микросервисов",
+          "Код ревью",
+          "Исправление багов, рефакторинг и доработка существующих сервисов"
+        ],
+        "technologies": [
+          "Java 11", "Spring (Boot, Web, Data)", "PostgreSQL", "Liquibase", "Kafka", "Gradle"
+        ]
+      }
+    ],
+    "start_date": "Апрель 2022",
+    "end_date": "Настоящее время"
+  },
   {
     "site": "http://www.cinimex.ru/",
     "company": "Синимекс-Консалтинг",
