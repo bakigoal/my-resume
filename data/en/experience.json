@@ -2,6 +2,26 @@
   "title": "Experience",
   "experienceList": [
     {
+    "site": "https://ibs.ru/",
+    "company": "IBS",
+    "job_title": "Java Developer",
+    "projects": [
+      {
+        "responsibilities": [
+          "Developed new features and components",
+          "Provided code refactoring",
+          "Provided code review",
+          "Fixed bugs"
+        ],
+        "technologies": [
+          "Java 11", "Spring (Boot, Web, Data)", "PostgreSQL", "Liquibase", "Kafka", "Gradle"
+        ]
+      }
+    ],
+    "start_date": "Апрель 2022",
+    "end_date": "Present"
+  },
+    {
       "site": "http://www.cinimex.ru/",
       "company": "Cinimex",
       "job_title": "Java Developer",
